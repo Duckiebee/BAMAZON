@@ -11,13 +11,8 @@ Three JavaScript files replicate the functionalaity of the retailer:
 
 - `BamazonManager.js` 
   - Mimics the basics of a warehouse management system, providing managers with a list of options to view stock and adjust inventory.
-  - A sample of the menu is below:
-    * View Products for Sale 
-    * View Low Inventory
-    * Add to Inventory
-    * Add New Product
 
-- `BamazonExecutive.js` _([See example here](#executive))_
+- `BamazonExecutive.js`
   - Simulates very basic profit and sales insights for upper management.
  
 
@@ -38,4 +33,5 @@ The JavaScript files mentioned above query a MySQL database called `Bamazon` whi
 
 ### Node Package Manager (npm)
 If you clone this repo down to your machine, note that it has two npm dependencies!
+
 Before running the JavaScript files mentioned above, please run `npm install` in your terminal to download the [prompt](https://www.npmjs.com/package/prompt) and [mysql](https://www.npmjs.com/package/mysql) node packages.
