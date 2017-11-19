@@ -13,7 +13,6 @@ JavaScript file replicates the functionalaity of the retailer:
 ### MySQL
 The JavaScript file mentioned above query a MySQL database called `Bamazon` which is locally hosted.
 
-- Please refer to the `schema.sql` file to see how the database was created using raw SQL queries.
 
   - If you wish to run this app on your own machine, then please note the following commands:
 
