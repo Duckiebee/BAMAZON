@@ -4,21 +4,14 @@ Bamazon is a Node.js and MySQL digital storefront. This is a command line Node a
 
 
 ### Node.js
-Three JavaScript files replicate the functionalaity of the retailer:
+JavaScript file replicates the functionalaity of the retailer:
 
 - `BamazonCustomer.js` 
   - Receives orders from customers via the command line and interfaces with mySQL to update the stock from the store's inventory.
 
-- `BamazonManager.js` 
-  - Mimics the basics of a warehouse management system, providing managers with a list of options to view stock and adjust inventory.
-
-- `BamazonExecutive.js`
-  - Simulates very basic profit and sales insights for upper management.
- 
-
 
 ### MySQL
-The JavaScript files mentioned above query a MySQL database called `Bamazon` which is locally hosted.
+The JavaScript file mentioned above query a MySQL database called `Bamazon` which is locally hosted.
 
 - Please refer to the `schema.sql` file to see how the database was created using raw SQL queries.
 
